@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Book Manager</h1>
+    <form action="">
+        <label for="bookName" class="label">Book Name:</label>
+        <input type="text" id="bookName" name="bookName" placeholder="Book Name" required>
+        <label for="authorName" class="label">Author Name:</label>
+        <input type="text" id="authorName" name="authorName" placeholder="Author Name" required>
+        <button type="button" class="btn" onclick="addBook()">Add Book</button>
+    </form>
+    <h2>Book List:-</h2>
+    <div id="bookList"></div>
+    <script src="script.js"></script>
+</body>
+</html>

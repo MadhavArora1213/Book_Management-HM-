@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 4vw;
+    margin: 2vw 0vw;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(45deg, red, blue, pink, yellow);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+.label {
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+input {
+    width: 30%;
+    padding: 1vw 1vw;
+    border-radius: 1vw;
+}
+
+.btn {
+    width: 9vw;
+    padding: 0.9vw 0.8vw;
+    font-size: 1.3vw;
+    border-radius: 1vw;
+    background-color: rgb(164, 20, 204);
+    color: white;
+}
+::-webkit-input-placeholder{
+    font-size: 1.5vw;
+}
+h2{
+    margin-top: 4vw;
+    font-weight: 600;
+}
+#bookList{
+    margin-top: 2vw;
+}
